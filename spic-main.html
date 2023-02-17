@@ -7,9 +7,28 @@
     <title>Document</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -39,10 +58,26 @@
       href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="main-stlye.css" />
   </head>
   <body>
     <header class="header">
+      <!--/*ようこそのbox作る*/-->
+      <div class="header-top">
+        <div class="welcome-box">
+          <div class="welcome">
+            <p style="font-family: 'M PLUS 2', sans-serif">
+              すんす様いらっしゃい
+            </p>
+          </div>
+        </div>
+      </div>
       <div class="inner">
         <ul class="treebox">
           <li class="logo">
@@ -52,7 +87,15 @@
           </li>
           <li class="search">
             <div class="search-box">
-              <input type="text" /> <button></button>
+              &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" />
+              <button>
+                <img
+                  src="./image/searchmark.png"
+                  style="width: 40px; height: 40px"
+                  alt=""
+                  srcset=""
+                />
+              </button>
             </div>
           </li>
           <li class="Other-Funtion">
@@ -60,38 +103,38 @@
               <li>
                 <a href="#">
                   <center>
-                    <img src="./image/mypage.png" alt="" / width="20px"
-                    height="20px">
+                    <img src="./image/mypage.png" alt="" / width="25px"
+                    height="25px">
                   </center>
-                  MyPage</a
+                  <p style="margin-top: 5px">MyPage</p></a
                 >
               </li>
 
               <li>
                 <a href="#">
                   <center>
-                    <img src="./image/login.png" alt="" / width="20px"
-                    height="20px">
+                    <img src="./image/login.png" alt="" / width="25px"
+                    height="25px" class="img">
                   </center>
-                  Login</a
+                  <p style="margin-top: 5px">Login</p></a
                 >
               </li>
               <li>
                 <a href="#">
                   <center>
-                    <img src="./image/bookmark2.png" alt="" / width="20px"
-                    height="20px">
+                    <img src="./image/bookmark2.png" alt="" / width="25px"
+                    height="25px">
                   </center>
-                  BookMark</a
+                  <p style="margin-top: 5px">BookMark</p></a
                 >
               </li>
               <li>
                 <a href="#">
                   <center>
-                    <img src="./image/help.png" alt="" / width="20px"
-                    height="20px">
+                    <img src="./image/help.png" alt="" / width="25px"
+                    height="25px">
                   </center>
-                  Help
+                  <p style="margin-top: 5px">Help</p>
                 </a>
               </li>
             </ul>
@@ -125,7 +168,11 @@
           <div class="mainboard">
             <ul>
               <div class="boarder-top-box">
-                <span class="board-top-message">最新コミュニティ</span>
+                <span
+                  class="board-top-message"
+                  style="font-family: 'M PLUS 1p', sans-serif"
+                  >最新コミュニティ</span
+                >
                 <span
                   ><img
                     src="./image/check1.png"
@@ -134,7 +181,11 @@
                     width="25px"
                     height="25px"
                 /></span>
-                <span class="board-top-message">最新情報</span>
+                <span
+                  class="board-top-message"
+                  style="font-family: 'M PLUS 1p', sans-serif"
+                  >最新情報</span
+                >
                 <span
                   ><img
                     src="./image/check2.png"
@@ -143,7 +194,11 @@
                     width="25px"
                     height="25px"
                 /></span>
-                <span class="board-top-message">最新ニュース</span>
+                <span
+                  class="board-top-message"
+                  style="font-family: 'M PLUS 1p', sans-serif"
+                  >最新ニュース</span
+                >
                 <span
                   ><img
                     src="./image/check3.png"
@@ -154,97 +209,104 @@
                 /></span>
               </div>
               <li>
-                <a href="#"
+                <a href="#" style="text-align: left"
                   ><img src="./ahoka.png" alt="" / width="80px" height="40px">
-                  <div class="text-box">
-                    <p>제목</p>
-                    <span>[덧글 수]</span>
-                  </div>
-                  <div class="time">
-                    <p>출처 시간</p>
-                  </div></a
-                >
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
               <li>
-                <a href="#"
-                  ><a href="#"
-                    ><img src="./ahoka.png" alt="" / width="80px"
-                    height="40px"><span>제목</span><span>[덧글 수]</span
-                    ><span>출처 시간</span></a
-                  ></a
-                >
+                <a href="#" style="text-align: left"
+                  ><img src="./ahoka.png" alt="" / width="80px" height="40px">
+                  <span style="font-family: 'M PLUS 1p', sans-serif"
+                    >今日の晩ご飯は焼きそば</span
+                  >
+                  <span style="color: red">[35]</span>
+                </a>
+                <div class="time"><p>2023-02-17 04:17</p></div>
               </li>
             </ul>
           </div>
@@ -263,16 +325,116 @@
               <li class="side-DOWN">
                 <ul>
                   <li class="title">リアルタイム人気掲示板</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
-                  <li>リアルタイム1位</li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >1</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >2</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >3</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >4</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >5</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >6</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >7</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >8</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >9</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
+                  <li style="font-size: 15px">
+                    <span
+                      style="
+                        border: solid navy;
+                        color: white;
+                        background-color: navy;
+                        border-width: 3px;
+                      "
+                      >10</span
+                    >&nbsp;&nbsp;リアルタイム
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -333,7 +495,12 @@
           </div>
         </div>
         <div class="bo-right">
-          <img src="./image/koukoku1.png" alt="" width="180px" height="600px" />
+          <img
+            src="./image/koukokumigi2.png"
+            alt=""
+            width="180px"
+            height="600px"
+          />
         </div>
       </div>
     </div>
@@ -342,10 +509,13 @@
       <div class="Advertising-box">
         <div class="image-box">
           <div class="imageBox1">
-            <img src="./image/koukoku1.png" ta; alt="" srcset="" / width="675px"
-            height="200px">
+            <img src="./image/koukokuwakutin.png" ta; alt="" srcset="" /
+            width="975px" height="230px">
           </div>
-          <div class="imageBox2"></div>
+          <div class="imageBox2">
+            <img src="./image/koukokuTravel.png" ta; alt="" srcset="" /
+            width="180px" height="230px">
+          </div>
         </div>
       </div>
     </div>

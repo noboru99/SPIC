@@ -1,8 +1,18 @@
 body {
   margin: 0 auto;
 }
-.header {
+.header-top {
+  width: 100%;
+}
+.header-top > .welcome-box {
   margin-top: 70px;
+  width: 1200px;
+}
+.header-top > .welcome-box > .welcome {
+  text-align: right;
+}
+.header {
+  margin-top: 50px;
   width: 100%;
 }
 .inner {
@@ -52,14 +62,16 @@ body {
   /* margin: 10px; */
 }
 
-.search-box input {
-  height: 80px;
-  width: 300px;
+.search-box > input {
+  height: 40px;
+  width: 465px;
   border-style: none;
+  /* background-color: aqua; */
 }
-.search-box button {
-  width: 80px;
-  height: 80px;
+.search-box > button {
+  width: 50px;
+  height: 40px;
+  justify-content: right;
 }
 .Other-Funtion {
   width: 280px;
@@ -70,7 +82,7 @@ body {
   align-items: space-around;
 }
 .Other-Funtion > ul > li {
-  height: 40px;
+  height: 60px;
   margin-right: 15px;
   position: relative;
   text-decoration: none;
@@ -81,9 +93,12 @@ body {
   font-family: "Abel", sans-serif;
   font-family: "Permanent Marker", cursive;
 }
+
 .nav {
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 130px;
   height: 120px;
   border-top: 2px solid rgba(0, 0, 0);
   border-bottom: 2px solid rgba(0, 0, 0);
@@ -123,6 +138,12 @@ body {
 }
 .nav > .container > .container-box > ul > li > a {
   align-items: center;
+  transition: 0.3s;
+}
+.nav > .container > .container-box > ul > li > a:hover {
+  color: greenyellow;
+  font-size: 35px;
+  transition: 0.3s;
 }
 .boarder-Box {
   margin-top: 40px;
@@ -156,19 +177,25 @@ body {
   height: 100%;
 }
 .boarder-Box > .board > .main-box > .mainboard > ul > li {
-  justify-content: space-between;
-  overflow: hidden;
+  display: flex;
   border-bottom: solid 1px rgba(5, 0, 0, 0.4);
   height: 40px;
-  margin-top: 20px;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 800;
 }
-.boarder-Box > .board > .main-box > .mainboard > ul > li > text-box {
-  float: left;
-  vertical-align: middle;
-  margin-left: 13px;
-  white-space: nowrap;
+.boarder-Box > .board > .main-box > .mainboard > ul > li > .time {
+  width: 150px;
+  height: 20px;
+  padding-top: 10px;
+  font-weight: 500;
+  font-family: "M PLUS 1p", sans-serif;
 }
-
+.boarder-Box > .board > .main-box > .mainboard > ul > li > a > span {
+  top: -10px;
+  position: relative;
+} /*-------- 포지션 넣음-------------------*/
 /*------------------side----------------*/
 .boarder-Box > .board > .main-box > .side > ul {
   width: 225px;
@@ -226,6 +253,9 @@ body {
   font-weight: 800;
   border-bottom: dashed 1px black;
 }
+/* .boarder-Box > .board > .main-box > .side > ul > .side-DOWN > ul > li {
+  font-size: 10px;
+} */
 /*------box1,2------*/
 .bottomBox {
   width: 100%;
@@ -281,6 +311,7 @@ body {
   width: 487.5px;
   height: 300px;
 }
+
 .bottomBox > .bottombody > .bo-left > .box-bottom > .bottom-minibox > .box3 {
   width: 450px;
   height: 200px;
@@ -291,10 +322,12 @@ body {
   margin-left: 37.5px;
 }
 .bottomBox > .bottombody > .bo-left > .box-bottom > .bottom-minibox > ul > h4 {
-  font-size: 25px;
+  font-size: 40px;
   margin-bottom: 20px;
   margin-top: 15px;
   font-weight: 800;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 900;
 }
 .bottomBox
   > .bottombody
@@ -307,6 +340,8 @@ body {
   margin-bottom: 15px;
   list-style: square inside;
   border-bottom: 1px black dashed;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 800;
 }
 .bottomBox
   > .bottombody
@@ -333,7 +368,7 @@ body {
 .Advertising > .Advertising-box {
   margin: 0 auto;
   width: 1200px;
-  height: 200px;
+  height: 230px;
 }
 .Advertising > .Advertising-box > .image-box {
   display: flex;
@@ -341,22 +376,22 @@ body {
   height: 100%;
 }
 
-.Advertising > .Advertising-box > .image-box > .imageBox1 {
+/* .Advertising > .Advertising-box > .image-box > .imageBox1 {
   width: 675px;
   height: 100%;
 
   margin-right: 25px;
-}
+} */
 .Advertising > .Advertising-box > .image-box > .imageBox2 {
-  margin-left: 25px;
-  width: 375px;
+  margin-left: 45px;
+  /* width: 375px;
   height: 100%;
-  background-color: royalblue;
+  background-color: royalblue; */
 }
 
 .footer-box {
   border-top: 3px solid black;
-  margin-top: 40px;
+  margin-top: 50px;
   width: 100%;
   height: 100px;
 }
