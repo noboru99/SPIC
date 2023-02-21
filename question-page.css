@@ -1,0 +1,247 @@
+body {
+  margin: 0 auto;
+}
+.header {
+  margin-top: 20px;
+  width: 100%;
+}
+.header > .inner {
+  margin: 0 auto;
+  width: 1200px;
+  border: 1px solid 2px;
+}
+.header > .inner > .header-box {
+  justify-content: space-between;
+  display: flex;
+}
+.header > .inner > .header-box > .logo {
+  width: 330px;
+  height: 70px;
+}
+.logo .N {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  color: skyblue;
+}
+.logo .C {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  color: greenyellow;
+}
+.logo .inside {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  color: orange;
+}
+.header > .inner > .header-box > .search {
+  width: 600px;
+  height: 70px;
+  display: flex;
+}
+.logo > .com {
+  color: blue;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.search-box {
+  width: 500px;
+  height: 45px;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /* margin: 10px; */
+}
+.search-box > input {
+  height: 40px;
+  width: 265px;
+  border: none;
+
+  /* background-color: aqua; */
+}
+.search-box > .searchBtnBox {
+  width: 50px;
+  height: 40px;
+  justify-content: right;
+}
+.header > .inner > .header-box > .alarm {
+  width: 270px;
+  height: 70px;
+}
+.header > .inner > .header-box > .alarm > ul {
+  margin-top: 0%;
+}
+.header > .inner > .header-box > .alarm > ul > li {
+  list-style: none;
+  float: right;
+  font-size: 15px;
+}
+.nav {
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.nav > .navInner {
+  margin: 0 auto;
+  width: 1200px;
+}
+.nav > .navInner > .navBox {
+  justify-content: space-between;
+  display: flex;
+}
+.nav > .navInner > .navBox > .navBar {
+  width: 930px;
+  height: 60px;
+}
+.nav > .navInner > .navBox > .navBar > ul {
+  flex-direction: column;
+  align-items: center;
+  height: 60px;
+}
+.nav > .navInner > .navBox > .navMigi > ul {
+  height: 60px;
+}
+.nav > .navInner > .navBox > .navBar > ul > li {
+  margin-right: 15px;
+  position: relative;
+  text-decoration: none;
+  float: left;
+  list-style: none;
+  color: black;
+  font-size: 22px;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.nav > .navInner > .navBox > .navMigi > ul > li {
+  margin-left: 25px;
+  text-decoration: none;
+  float: right;
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.nav > .navInner > .navBox > .navMigi {
+  width: 270px;
+  height: 60px;
+}
+.question {
+  margin-top: 60px;
+  width: 100%;
+}
+.question > .questionInner {
+  margin: 0 auto;
+  width: 1200px;
+}
+.question > .questionInner > .questionBox {
+  width: 1200px;
+  height: 40px;
+  display: flex;
+}
+.question > .questionInner > .questionBox > .questionText {
+  font-size: 22px;
+  width: 220px;
+  height: 40px;
+  margin-left: 5px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.question > .questionInner > .questionBox > textarea {
+  border: 3px solid transparent;
+  /* border-radius: 20px; */
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.text {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.text > .BoxPlus {
+  margin: 0 auto;
+  width: 1200px;
+}
+.text > .BoxPlus > .textInner {
+  width: 1200px;
+  display: flex;
+}
+
+.text > .BoxPlus > .textInner > .twoBox {
+  width: 1200px;
+  height: 450px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.text > .BoxPlus > .textInner > .twoBox > .textBox > input {
+  border: 3px solid transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+}
+
+.text > .BoxPlus > .textInner > .twoBox > .imgtenpuBox {
+  width: 200px;
+  height: 350px;
+  padding: 0px;
+}
+.text > .BoxPlus > .textInner > .twoBox > .imgtenpuBox > ul {
+  height: 320px;
+  margin-top: 100px;
+  margin-right: 10px;
+}
+.text > .BoxPlus > .textInner > .twoBox > .imgtenpuBox > ul > li {
+  list-style: none;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.text > .BoxPlus > .textInner > .twoBox > .textBox {
+  padding: 25px;
+}
+.register {
+  width: 100%;
+  margin-top: 20px;
+}
+.register > .registerInner {
+  margin: 0 auto;
+  width: 1200px;
+}
+.register > .registerInner > .registerBox {
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.register > .registerInner .registerBox > .register {
+  width: 180px;
+  height: 100px;
+  font-size: 30px;
+  background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+  color: white;
+  border-radius: 10%;
+  border: none;
+}
+.footer-box {
+  border-top: 3px solid black;
+  margin-top: 50px;
+  width: 100%;
+  height: 100px;
+}
+.footer-box > #copyright {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
