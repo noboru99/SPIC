@@ -1,0 +1,271 @@
+body {
+  margin: 0 auto;
+}
+.header {
+  margin-top: 20px;
+  width: 100%;
+}
+.header > .inner {
+  margin: 0 auto;
+  width: 1200px;
+  border: 1px solid 2px;
+}
+.header > .inner > .header-box {
+  justify-content: space-between;
+  display: flex;
+}
+.header > .inner > .header-box > .logo {
+  width: 330px;
+  height: 70px;
+}
+.logo .N {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  color: skyblue;
+}
+.logo .C {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  color: greenyellow;
+}
+.logo .inside {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  color: orange;
+}
+.header > .inner > .header-box > .search {
+  width: 600px;
+  height: 70px;
+  display: flex;
+}
+.logo > .com {
+  color: blue;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.search-box {
+  width: 500px;
+  height: 45px;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /* margin: 10px; */
+}
+.search-box > input {
+  height: 40px;
+  width: 265px;
+  border: none;
+
+  /* background-color: aqua; */
+}
+.search-box > .searchBtnBox {
+  width: 50px;
+  height: 40px;
+  justify-content: right;
+}
+.header > .inner > .header-box > .alarm {
+  width: 270px;
+  height: 70px;
+}
+.header > .inner > .header-box > .alarm > ul {
+  margin-top: 0%;
+}
+.header > .inner > .header-box > .alarm > ul > li {
+  list-style: none;
+  float: right;
+  font-size: 15px;
+}
+.nav {
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.nav > .navInner {
+  margin: 0 auto;
+  width: 1200px;
+}
+.nav > .navInner > .navBox {
+  justify-content: space-between;
+  display: flex;
+}
+.nav > .navInner > .navBox > .navBar {
+  width: 930px;
+  height: 60px;
+}
+.nav > .navInner > .navBox > .navBar > ul {
+  flex-direction: column;
+  align-items: center;
+  height: 60px;
+}
+.nav > .navInner > .navBox > .navMigi > ul {
+  height: 60px;
+}
+.nav > .navInner > .navBox > .navBar > ul > li {
+  margin-right: 15px;
+  position: relative;
+  text-decoration: none;
+  float: left;
+  list-style: none;
+  color: black;
+  font-size: 22px;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.nav > .navInner > .navBox > .navMigi > ul > li {
+  margin-left: 25px;
+  text-decoration: none;
+  float: right;
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.nav > .navInner > .navBox > .navMigi {
+  width: 270px;
+  height: 60px;
+}
+.TopText {
+  width: 100%;
+}
+.TopText > .TopTextInner {
+  margin: 0 auto;
+  width: 1200px;
+  border: 1px solid 2px;
+  height: 50px;
+}
+.TopText > .TopTextInner > .TopTextBox {
+  width: 1200px;
+  height: 50px;
+}
+.TopText > .TopTextInner > .TopTextBox > .TopText {
+  font-size: 30px;
+  font-family: "Kosugi", sans-serif;
+}
+.Text {
+  width: 100%;
+}
+.Text > .TextInner {
+  width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+}
+.Text > .TextInner > .TextBoxTop {
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cfd8e7;
+}
+.Text > .TextInner > .TextBoxTop > .TextImg {
+  width: 180px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+.Text > .TextInner > .TextBoxTop > .TwoTextBox {
+  width: 960px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Text > .TextInner > .TextBoxTop > .TwoTextBox > .notifyText {
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+  /* margin: 30px; */
+  font-weight: normal;
+}
+.Text > .TextInner > .TextBoxTop > .TwoTextBox > .notifyTextBottom {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  height: 200px;
+  /* padding: 30px; */
+  color: #666;
+}
+.Text > .TextInner > .notifyButton {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.Text > .TextInner > .notifyButton > button {
+  margin-top: 20px;
+  width: 410px;
+  height: 100px;
+  font-size: 20px;
+  color: #fff;
+  background-color: purple;
+  border-radius: 5px;
+  border-color: purple;
+}
+.buttom {
+  width: 100%;
+}
+.buttom > .buttomInner {
+  width: 1200px;
+  margin: 0 auto;
+  height: 400px;
+}
+.buttom > .buttomInner > .buttomTextBox {
+  width: 1200px;
+  height: 210px;
+  display: flex;
+  border-top: 1px solid #cfd8e7;
+  border-bottom: 1px solid #cfd8e7;
+}
+.buttom > .buttomInner > .buttomTextBox > .buttomTextTop {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  width: 230px;
+  justify-content: center;
+  font-weight: 530;
+}
+.buttom > .buttomInner > .buttomTextBox > .buttomTextButtom {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 1000px;
+}
+/*--------------------*/
+.buttom > .buttomInner > .buttomTextBox2 {
+  width: 1200px;
+  height: 210px;
+  display: flex;
+  border-bottom: 1px solid #cfd8e7;
+}
+.buttom > .buttomInner > .buttomTextBox2 > .buttomTextTop2 {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  width: 230px;
+  justify-content: center;
+  font-weight: 530;
+}
+.buttom > .buttomInner > .buttomTextBox2 > .buttomTextButtom2 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 1000px;
+}
+.footer-box {
+  border-top: 3px solid black;
+  margin-top: 130px;
+  width: 100%;
+  height: 100px;
+}
+.footer-box > #copyright {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
